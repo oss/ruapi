@@ -1,0 +1,11 @@
+# Site settings
+title: Rutgers APIs
+email: oss@oss.rutgers.edu
+description: ""
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "api.rutgers.edu" # the base hostname & protocol for your site
+twitter_username: ""
+github_username:  oss
+
+# Build settings
+markdown: kramdown
