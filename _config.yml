@@ -6,6 +6,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "api.rutgers.edu" # the base hostname & protocol for your site
 twitter_username: ""
 github_username:  oss
+collections:
+  - apis
 
 # Build settings
 markdown: kramdown
