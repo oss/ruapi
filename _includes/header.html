@@ -9,8 +9,8 @@
       <a class="brand" href="#">Rutgers APIs</a>
       <div class="nav-collapse">
         <ul class="nav">
-          {% for nav in page.navs %}
-          <li ><a href="#{{ nav|slugify }}">{{ nav }}</a></li>
+          {% for api in site.apis %}
+          <li ><a href="#{{ api.title | slugify }}">{{ api.title }}</a></li>
           {% endfor %}
         </ul>
       </div><!--/.nav-collapse -->
