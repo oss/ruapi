@@ -16,25 +16,25 @@ something like this:
 
 {% highlight json %}
 [
-{
-title: "Douglass Campus Center",
-...
-campus_name: "Douglass",
-location: {
-  name: "Douglass Campus Center",
-  street: "100 GEORGE STREET",
-  city: "New Brunswick",
-  state: "New Jersey",
-  state_abbr: "NJ",
-  postal_code: "08901-1412",
-  country: "United States",
-  country_abbr: "US",
-  latitude: "40.484707",
-  longitude: "-74.436640"
-},
-offices: ["SA-Student Affairs, VP", "SA-Student Life"]
-},
-...
+    {
+        title: "Douglass Campus Center",
+        ...
+        campus_name: "Douglass",
+        location: {
+            name: "Douglass Campus Center",
+            street: "100 GEORGE STREET",
+            city: "New Brunswick",
+            state: "New Jersey",
+            state_abbr: "NJ",
+            postal_code: "08901-1412",
+            country: "United States",
+            country_abbr: "US",
+            latitude: "40.484707",
+            longitude: "-74.436640"
+        },
+        offices: ["SA-Student Affairs, VP", "SA-Student Life"]
+    },
+    ...
 {% endhighlight %}
 
 You can also pull the latest data for a particular buildingno from:

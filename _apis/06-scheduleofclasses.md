@@ -29,35 +29,35 @@ Example output:
 
 {% highlight json %}
 [
-{
-title: "INTRO COMPUTER SCI",
-synopsisUrl: "http://www.cs.rutgers.edu/undergraduate/courses/",
-courseNotes: null,
-campusCode: "NB",
-courseNumber: "111",
-sections: [
-  {
-	index: "37452",
-	number: "61",
-	campusCode: "NB",
-	openStatus: false,
-	meetingTimes: [
-	  {
-		campusAbbrev: "BUS",
-		startTime: "0500",
-		meetingDay: "T",
-		roomNumber: "117",
-		meetingModeDesc: "LEC",
-		campusName: "BUSCH",
-		...
-		endTime: "0620"
-	  },
-	  {
-		campusAbbrev: "BUS",
-		startTime: "0500",
-		meetingDay: "TH",
-		roomNumber: "117",
-...
+    {
+        title: "INTRO COMPUTER SCI",
+        synopsisUrl: "http://www.cs.rutgers.edu/undergraduate/courses/",
+        courseNotes: null,
+        campusCode: "NB",
+        courseNumber: "111",
+        sections: [
+            {
+                index: "37452",
+                number: "61",
+                campusCode: "NB",
+                openStatus: false,
+                meetingTimes: [
+                    {
+                        campusAbbrev: "BUS",
+                        startTime: "0500",
+                        meetingDay: "T",
+                        roomNumber: "117",
+                        meetingModeDesc: "LEC",
+                        campusName: "BUSCH",
+                        ...
+                        endTime: "0620"
+                    },
+                    {
+                        campusAbbrev: "BUS",
+                        startTime: "0500",
+                        meetingDay: "TH",
+                        roomNumber: "117",
+                        ...
 {% endhighlight %}
 
 ##Autocompletion Code
