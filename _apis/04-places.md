@@ -7,9 +7,9 @@ You can also query for buildings by buildingno.
 The whole database, along with a lunr index (javascript full text search) and
 kd-tree (for doing nearby queries) can be found here:
 
-    https://vanguard.rutgers.edu/~rfranknj/mobile/1/places.txt
+    https://rumobile.rutgers.edu/2/places.txt
 
-It's a JSON object with a `lunr` property, a `kdree` property and an `all`
+It's a JSON object with a `lunr` property and an `all`
 property. The indexer and the code used to utilize the database from within the
 app [can be found here](https://github.com/oss/placesindex). The data looks
 something like this:
